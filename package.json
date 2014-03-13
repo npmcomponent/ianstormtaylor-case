@@ -1,9 +1,7 @@
 {
-  "name": "case",
-  "repoistory": "git://github.com/ianstormtaylor/case.git",
-  "license": "MIT",
+  "name": "ianstormtaylor-case",
+  "description": "Simple case detection and conversion for strings.",
   "version": "1.0.0",
-  "description": "Simple case conversion and detection for strings.",
   "keywords": [
     "case",
     "upper",
@@ -15,23 +13,33 @@
     "camel",
     "camelcase",
     "snake",
-    "snakecase"
+    "snakecase",
+    "space",
+    "spacecase",
+    "sentence",
+    "sentencecase",
+    "capital",
+    "capitalcase",
+    "dot",
+    "dotcase",
+    "inverse",
+    "inversecase",
+    "slug",
+    "slugcase"
   ],
   "main": "lib/index.js",
   "dependencies": {
-    "to-camel-case": "git+http://github.com/ianstormtaylor/to-camel-case#0.2.1",
-    "to-capital-case": "~0.1.1",
-    "to-sentence-case": "~0.1.1",
-    "to-pascal-case": "0.0.2",
-    "to-constant-case": "~0.1.2",
-    "to-snake-case": "~0.1.2",
-    "to-dot-case": "~0.1.2",
-    "to-slug-case": "~0.1.2",
-    "to-space-case": "~0.1.2",
-    "to-no-case": "~0.1.2",
-    "to-title-case": "~0.1.2"
+    "ianstormtaylor-to-camel-case": "git://github.com/npmcomponent/ianstormtaylor-to-camel-case.git",
+    "ianstormtaylor-to-capital-case": "git://github.com/npmcomponent/ianstormtaylor-to-capital-case.git",
+    "ianstormtaylor-to-constant-case": "git://github.com/npmcomponent/ianstormtaylor-to-constant-case.git",
+    "ianstormtaylor-to-dot-case": "git://github.com/npmcomponent/ianstormtaylor-to-dot-case.git",
+    "ianstormtaylor-to-no-case": "git://github.com/npmcomponent/ianstormtaylor-to-no-case.git",
+    "ianstormtaylor-to-pascal-case": "git://github.com/npmcomponent/ianstormtaylor-to-pascal-case.git",
+    "ianstormtaylor-to-sentence-case": "git://github.com/npmcomponent/ianstormtaylor-to-sentence-case.git",
+    "ianstormtaylor-to-slug-case": "git://github.com/npmcomponent/ianstormtaylor-to-slug-case.git",
+    "ianstormtaylor-to-snake-case": "git://github.com/npmcomponent/ianstormtaylor-to-snake-case.git",
+    "ianstormtaylor-to-space-case": "git://github.com/npmcomponent/ianstormtaylor-to-space-case.git",
+    "ianstormtaylor-to-title-case": "git://github.com/npmcomponent/ianstormtaylor-to-title-case.git"
   },
-  "devDependencies": {
-    "mocha": "~1.15.1"
-  }
+  "license": "MIT"
 }
